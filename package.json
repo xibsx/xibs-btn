@@ -1,26 +1,17 @@
 {
   "name": "xibs-btn",
-  "version": "1.0.0",
-  "description": "Interactive buttons for Baileys 7.x.x WhatsApp bot - Quick replies, URLs, Copy, Call, and List menus",
+  "version": "1.0.1",
+  "description": "Interactive buttons for Baileys 6.7.x WhatsApp bot",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xibsx/xibs-btn.git"
   },
-  "keywords": [
-    "baileys",
-    "whatsapp",
-    "buttons",
-    "interactive",
-    "whatsapp-bot",
-    "quick-reply",
-    "cta",
-    "list-menu"
-  ],
+  "keywords": ["baileys", "whatsapp", "buttons", "interactive", "quick-reply"],
   "author": "xibsx",
   "license": "MIT",
   "peerDependencies": {
-    "@whiskeysockets/baileys": ">=7.0.0"
+    "@whiskeysockets/baileys": ">=6.7.0 <7.0.0"
   },
   "engines": {
     "node": ">=20.0.0"
